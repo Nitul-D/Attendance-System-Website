@@ -25,7 +25,6 @@ if (dateInput) {
   dateInput.value = todayStr;
 }
 
-// Build table from already-injected 'interns' variable
 function buildTable(date) {
     const tbody = document.getElementById('attendance-body');
     tbody.innerHTML = '';
